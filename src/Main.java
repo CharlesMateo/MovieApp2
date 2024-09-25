@@ -11,11 +11,11 @@ public class Main {
         char directorintial = 'A';
 
         System.out.println("My favorite movie is: " + moviename);
-        + ("Year Released " + releaseyear);
-        + ("Genre: " + moviegenre);
-        + ("IMDB Rating: " + IMDB);
-        + ("Part of a series: " + ispartofseries);
-        + ("Director's Last Name Initial: " + directorintial);
+        System.out.println("Year Released " + releaseyear);
+        System.out.println("Genre: " + moviegenre);
+        System.out.println("IMDB Rating: " + IMDB);
+        System.out.println("Part of a series: " + ispartofseries);
+        System.out.println("Director's Last Name Initial: " + directorintial);
 
         String[] movieGenres = {"Action", "Comedy", "Thriller"};
         System.out.println("First Movie Genre " + movieGenres[0]);
